@@ -143,7 +143,7 @@ install(
 
 add_required_dependency("openscenegraph >= 3.2")
 add_required_dependency("openthreads >= 2.6")
-# add_osgqt_dependency()
+add_osgqt_dependency()
 ADD_REQUIRED_DEPENDENCY("openscenegraph-osgQt")
 # Must be after ADD_OSGQT_DEPENDENCY
 add_qt_dependency()
