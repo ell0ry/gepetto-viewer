@@ -18,11 +18,13 @@ find_path(
   PYTHONQT_INCLUDE_DIR PythonQt.h
   PATHS "${PYTHONQT_INSTALL_DIR}/include/PythonQt"
         "${PYTHONQT_INSTALL_DIR}/include/PythonQt5"
+        "${PYTHONQT_SOURCE_DIR}/src"
   DOC "Path to the PythonQt include directory")
 find_path(
   PYTHONQT_QTALL_INCLUDE_DIR PythonQt_QtAll.h
   PATHS "${PYTHONQT_INSTALL_DIR}/include/PythonQt"
         "${PYTHONQT_INSTALL_DIR}/include/PythonQt5"
+        "${PYTHONQT_SOURCE_DIR}"
   PATH_SUFFIXES "extensions/PythonQt_QtAll"
   DOC "Path to the PythonQt QtAll extension include directory")
 
